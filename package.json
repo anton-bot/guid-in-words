@@ -1,0 +1,36 @@
+{
+  "name": "guid-in-words",
+  "version": "1.0.0",
+  "description": "Create a random GUID in human-readable form, or convert GUID to words and vice versa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catcher-in-the-try/guid-in-words.git"
+  },
+  "keywords": [
+    "guid",
+    "guid-in-words",
+    "random-number-in-words",
+    "uuid",
+    "uuid-in-words",
+    "human-readable-id",
+    "human-readable-guid",
+    "guid-to-words",
+    "guid2words",
+    "uuid2words",
+    "uuid-to-words",
+    "hex-to-words"
+  ],
+  "author": "Anton Ivanov <anton@ivanov.hk>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/catcher-in-the-try/guid-in-words/issues"
+  },
+  "homepage": "https://github.com/catcher-in-the-try/guid-in-words#readme",
+  "dependencies": {
+    "node-uuid": "^1.4.8"
+  }
+}
