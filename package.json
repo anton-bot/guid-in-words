@@ -1,6 +1,6 @@
 {
   "name": "guid-in-words",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a random GUID in human-readable form, or convert GUID to words and vice versa.",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,8 @@
   },
   "homepage": "https://github.com/catcher-in-the-try/guid-in-words#readme",
   "dependencies": {
-    "node-uuid": "^1.4.8"
+    "md5": "^2.2.1",
+    "node-uuid": "^1.4.8",
+    "s256": "^1.0.0"
   }
 }
