@@ -69,7 +69,7 @@ class GuidToWords {
 
     // Should not contain anything except 0-9a-f characters:
     if (hexString.match(/[^0-9a-f]/gi)) {
-      throw new Error('The string must not contain any other ');
+      throw new Error('The string must not contain any other characters except 0-9a-f.');
     }
 
     // If the hex string has an uneven number of characters, e.g. 15,
